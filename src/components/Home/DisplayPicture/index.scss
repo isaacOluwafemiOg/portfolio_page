@@ -1,0 +1,23 @@
+.dp-container{
+    z-index: 0;
+    width: 400px;
+    height:609px;
+    position: absolute;
+    max-height: 100%;
+    top: auto;
+    right:2%;
+    left: auto;
+    margin: auto;
+
+    .dp-image{
+        position:absolute;
+        width: 100%;
+        top: 10%;
+        margin:auto;
+        right: auto;
+        left: 0;
+        opacity:0;
+        animation: fadeIn 1s 1.8s forwards;
+        max-height:100%;
+    }
+}
