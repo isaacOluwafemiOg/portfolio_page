@@ -1,3 +1,7 @@
+import { faJsSquare, faPython } from '@fortawesome/free-brands-svg-icons'
+import { faCloud, faDashboard, faDatabase, faFileExcel, faRocket, faToolbox, faTools } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAnalytics } from 'react-icons/fa';
 import './index.scss'
 
 const About = () => {
@@ -37,6 +41,34 @@ const About = () => {
                     I love software engineering because I believe it affords me the opportunity 
                     to make positive global impact.
                 </p>
+            </div>
+
+            <div className='stage-cube-cont'>
+                <div className='cubespinner'>
+                    <div className='face1'>
+                        <FontAwesomeIcon icon={faPython} color='#2b3a55'/>
+                    </div>
+
+                    <div className='face2'>
+                        <FontAwesomeIcon icon={faFileExcel} color='#ec4d28'/>
+                    </div>
+
+                    <div className='face3'>
+                        < FontAwesomeIcon icon={faJsSquare} color='#dd0031'/>
+                    </div>
+
+                    <div className='face4'>
+                        <FontAwesomeIcon icon={faDatabase} color='#58287f'/>
+                    </div>
+
+                    <div className='face5'>
+                        <FontAwesomeIcon icon={faRocket} color='#4d4d4e'/>
+                    </div>
+
+                    <div className='face6'>
+                        <FontAwesomeIcon icon={faCloud} color='#f06529'/>
+                    </div>
+                </div>
             </div>
         </div>
     )

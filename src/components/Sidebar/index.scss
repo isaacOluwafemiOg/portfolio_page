@@ -1,6 +1,6 @@
 .nav-bar{
     background: #89c4e1;
-    width:80px;
+    width:5.5%;
     height:100%;
     position: absolute;
     top:0;
@@ -85,6 +85,12 @@
         a.about-link{
             &:after{
                 content: 'ABOUT'
+            }
+        }
+
+        a.projects-link{
+            &:after{
+                content: 'PROJECTS'
             }
         }
 
