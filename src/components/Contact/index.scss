@@ -39,6 +39,7 @@
     input[type='text'],
     input[type='email']{
         width:100%;
+        height:50px;
         border:0;
         background-color: #d8d4c7;
         color: #1a0000;
@@ -73,4 +74,95 @@
 
     }
 
+}
+
+.quote-cube{
+    width: 42%;
+    height: 70%;
+    top: 0;
+    padding-top: 15%;
+    margin-left: 0;
+    position: absolute;
+    right: 2%;
+    overflow: hidden;
+}
+
+.cubespin{
+    animation-name: spinner;
+    animation-timing-function: ease-in-out;
+    animation-duration: 70s;
+    animation-iteration-count: infinite;
+    transform-style: preserve-3d;
+    transform-origin: 150px 150px 0;
+    margin-left: calc(42% - 150px);
+
+    div {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        border: 1px solid #1a0000;
+        background: rgba(255,255,255,0.4);
+        text-align: center;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p{
+            .quoter{
+                float:right;
+                margin-right: 20px;
+            }
+        }
+
+    }
+    .face{
+        background-color:#d8d4c7;
+    }
+    .face1{
+        transform: translateZ(150px);
+    }
+    .face2{
+        transform: rotateY(89.9deg) translateZ(150px);
+    }
+    .face3{
+        transform: rotateY(89.9deg) rotateX(90deg) translateZ(150px);
+    }
+    .face4{
+        transform: rotateY(179.9deg) rotateZ(90deg) translateZ(150px);
+    }
+    .face5{
+        transform:rotateY(-89.9deg) rotateZ(90deg) translateZ(150px);
+    }
+    .face6{
+        transform: rotateX(-90deg) translateZ(150px);
+    }
+}
+
+
+@keyframes spinner {
+    from,
+    to{
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+
+    }
+    17% {
+        transform: rotateY(-89.9deg);
+    }
+    34% {
+        transform: rotateY(-89.9deg) rotateZ(90deg);
+
+    }
+
+    50%{
+        transform: rotateY(-179.9deg) rotateZ(90deg);
+
+    }
+    67%{
+        transform: rotateY(-269.9deg) rotateZ(90deg);
+
+    }
+    84%{
+        transform: rotateX(90deg);
+    }
 }

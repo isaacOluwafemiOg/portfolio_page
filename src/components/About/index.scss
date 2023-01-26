@@ -6,7 +6,7 @@
     margin-left: 0;
     position: absolute;
     right: 2%;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .cubespinner{
@@ -36,16 +36,16 @@
         transform: translateZ(100px);
     }
     .face2{
-        transform: rotateY(90deg) translateZ(100px);
+        transform: rotateY(89.9deg) translateZ(100px);
     }
     .face3{
-        transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+        transform: rotateY(89.9deg) rotateX(90deg) translateZ(100px);
     }
     .face4{
-        transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
+        transform: rotateY(179.9deg) rotateZ(90deg) translateZ(100px);
     }
     .face5{
-        transform:rotateY(-90deg) rotateZ(90deg) translateZ(100px);
+        transform:rotateY(-89.9deg) rotateZ(90deg) translateZ(100px);
     }
     .face6{
         transform: rotateX(-90deg) translateZ(100px);
@@ -60,19 +60,19 @@
 
     }
     17% {
-        transform: rotateY(-90deg);
+        transform: rotateY(-89.9deg);
     }
     34% {
-        transform: rotateY(-90deg) rotateZ(90deg);
+        transform: rotateY(-89.9deg) rotateZ(90deg);
 
     }
 
     50%{
-        transform: rotateY(-180deg) rotateZ(90deg);
+        transform: rotateY(-179.9deg) rotateZ(90deg);
 
     }
     67%{
-        transform: rotateY(-270deg) rotateZ(90deg);
+        transform: rotateY(-269.9deg) rotateZ(90deg);
 
     }
     84%{
