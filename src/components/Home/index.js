@@ -8,7 +8,7 @@ const Home = () => {
         <div className='container home-page'>
             <div className='text-zone'>
                 <h1>
-                    Hi, <br/> I'm Isaac Olwafemi ogunniyi.
+                    Hi, <br/> I'm Isaac Oluwafemi ogunniyi.
                     <br/>
                     Data Scientist with an Aerospace Engineering background.
 

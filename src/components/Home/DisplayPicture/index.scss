@@ -1,18 +1,18 @@
 .dp-container{
     z-index: 0;
-    width: 400px;
-    height:609px;
+    width: 30vw;
+    max-width: 403px;
+    height:50vh;
     position: absolute;
     max-height: 100%;
     top: auto;
-    right:2%;
-    left: auto;
+    right: 0.05vw;
     margin: auto;
 
     .dp-image{
         position:absolute;
-        width: 100%;
-        top: 10%;
+        width: 90%;
+        top: 25%;
         margin:auto;
         right: auto;
         left: 0;

@@ -1,17 +1,19 @@
 .home-page{
+    
+    max-height: 100%;
     .text-zone{
         position: absolute;
-        left:10%;
+        left:11%;
+        
         top:50%;
         transform: translateY(-50%);
-        width: 60%;
-        max-height: 90%;
+        width: 65vw;
 
     }
 
     h1 {
        color:#1A0000;
-       font-size: 53px;
+       font-size: 300%;
        margin:0px;
        font-family: 'Coolvetica';
        font-weight: 400;
@@ -20,17 +22,17 @@
 
     h2{
         color: #2b3a55;
-        margin-top:28px;
+        margin-top:2.2em;
         font-weight:400;
-        font-size:12px;
+        font-size:1.2em;
         font-family:sans-serif;
-        letter-spacing: 3px;
+        letter-spacing: 0.23em;
         animation: fadeIn 1s 1.8s backwards;
     }
 
     .flat-button{
         color:#1A0000;
-        font-size: 13px;
+        font-size: 1.2em;
         font-weight:400;
         letter-spacing: 4px;
         font-family: sans-serif;

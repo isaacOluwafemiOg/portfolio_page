@@ -1,26 +1,30 @@
 .nav-bar{
     background: #89c4e1;
-    width:5.5%;
+    width:8vw;
+    max-width: 70px;
+    min-width: 50px;
     height:100%;
+    margin-left: 0px;
+    padding-left: 0px;
     position: absolute;
     top:0;
     z-index:3;
-    min-height: 500px;
 
 
     .logo {
         display:block;
-        padding: 8px 0;
+        padding: 10% 0;
 
         img {
             display: block;
-            margin: 8px auto;
-            width: 65px;
+            margin-top: 10%;
+            margin-left: 2%;
+            margin-right: 5%;
+            width: 10vw;
+            max-width: 65px;
             height: auto;
 
-            &.sublogo {
-                width: 79px;
-            } 
+           
         }
     }
 
@@ -28,17 +32,16 @@
         display: block;
         text-align: center;
         position: absolute;
-        height: 210px;
         top: 50%;
-        margin-top: -120px;
+        margin-top: -180%;
         width: 100%;
 
         a{
-            font-size:22px;
+            font-size:1.8em;
             color: #2b3a55;
             display: block;
-            line-height: 51px;
-            height: 51px;
+            line-height: 2.5em;
+            height: 2.7em;
             position: relative;
             text-decoration: none;
         
@@ -63,8 +66,8 @@
 
             &:after{
                 content:'';
-                font-size: 9px;
-                letter-spacing: 2px;
+                font-size: 0.5em;
+                letter-spacing: 0.2em;
                 position: absolute;
                 bottom: 0;
                 display: block;
@@ -110,7 +113,7 @@
 
     ul{
         position: absolute;
-        bottom: 20px;
+        bottom: 1.8em;
         width: 100%;
         display: block;
         padding: 0;
@@ -120,10 +123,10 @@
 
         li{
             a{
-                padding: 7px 0;
+                padding: 0.5em 0;
                 display: block;
-                font-size: 15px;
-                line-height:16px;
+                font-size: 1.3em;
+                line-height:0.4em;
 
 
                 &:hover svg{
