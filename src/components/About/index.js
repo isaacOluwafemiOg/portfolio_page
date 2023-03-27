@@ -1,13 +1,12 @@
 import { faJsSquare, faPython } from '@fortawesome/free-brands-svg-icons'
-import { faCloud, faDashboard, faDatabase, faFileExcel, faRocket, faToolbox, faTools } from '@fortawesome/free-solid-svg-icons'
+import { faCloud, faDatabase, faFileExcel, faRocket} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAnalytics } from 'react-icons/fa';
 import './index.scss'
 
 const About = () => {
     return(
         <div className='container about-page'>
-            <div className='text-zone'>
+            <div className='a-text-zone'>
                 <h1>About Isaac</h1>
                 <p>I'm a results-oriented Data science professional
                     with valuable experience in analysing data to draw 

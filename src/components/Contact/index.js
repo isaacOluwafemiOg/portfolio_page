@@ -30,8 +30,8 @@ const Contact = () => {
             <div className='text-zone'>
               <h1>Contact Me</h1>  
                 <p>
-                    I am open to freelance opportunities and projects in data science
-                    and software engineering. Feel free to reach out to me via the form 
+                    I am open to freelance opportunities and projects in data science.
+                    Feel free to reach out to me via the form 
                     below. I look forward to hearing from you.
                 </p>
                 <div className='contact-form'>
