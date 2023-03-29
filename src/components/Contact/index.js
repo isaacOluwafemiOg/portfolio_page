@@ -95,9 +95,9 @@ const Contact = () => {
 
                     <div className='face4 face'>
                         <p>
-                            'It\'s probably my job to tell you life isn\'t fair, but
-                             I figure you already know that. So instead, I\'ll tell you 
-                             that hope is precious, and you\'re right not to give up'
+                            "It's probably my job to tell you life isn't fair, but
+                             I figure you already know that. So instead, I'll tell you 
+                             that hope is precious, and you're right not to give up"
                             <br/>
                             <br/>
                             <span className='quoter'>~ C.J. Redwine</span>

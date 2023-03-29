@@ -18,6 +18,34 @@ const About = () => {
                     Scikit-learn, Pycaret, Yellobrick and Tensorflow)
                 </p>
 
+                <div className='hid stage-cube-cont'>
+                    <div className='cubespinner'>
+                        <div className='face1'>
+                            <FontAwesomeIcon icon={faPython} color='#2b3a55'/>
+                        </div>
+
+                        <div className='face2'>
+                            <FontAwesomeIcon icon={faFileExcel} color='#ec4d28'/>
+                        </div>
+
+                        <div className='face3'>
+                            < FontAwesomeIcon icon={faJsSquare} color='#dd0031'/>
+                        </div>
+
+                        <div className='face4'>
+                            <FontAwesomeIcon icon={faDatabase} color='#58287f'/>
+                        </div>
+
+                        <div className='face5'>
+                            <FontAwesomeIcon icon={faRocket} color='#4d4d4e'/>
+                        </div>
+
+                        <div className='face6'>
+                            <FontAwesomeIcon icon={faCloud} color='#f06529'/>
+                        </div>
+                    </div>
+                </div>
+
                 <p>
                     I studied Aerospace engineering at Kwame Nkrumah University of 
                     of Science and Technology, taking opportunity of the long vacations 
